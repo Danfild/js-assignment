@@ -1,5 +1,8 @@
+let allUsers = [];
+
 // Возвращает массив всех пользователей.
-function users() {}
+function users() {
+    return allUsers;}
 
 //Создает нового пользователя с указанным логином username и паролем password, возвращает созданного пользователя.
 function createUser(name, password) {}
