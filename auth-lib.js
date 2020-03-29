@@ -2,13 +2,20 @@ let allUsers = [];
 
 // Возвращает массив всех пользователей.
 function users() {
-    return allUsers;}
+    return allUsers;
+    }
 
 //Создает нового пользователя с указанным логином username и паролем password, возвращает созданного пользователя.
-function createUser(name, password) {}
+function createUser(name, password) {
+    allUsers.push(name)
+    return name
+}
 
 // Удаляет пользователя user
-function deleteUser(user) {}
+function deleteUser(user) {
+   allUsers.splice(allUsers.indexOf(user));
+    
+}
 
 // Возвращает массив групп, к которым принадлежит пользователь user
 function userGroups(user) {}
